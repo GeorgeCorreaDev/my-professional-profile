@@ -1,0 +1,76 @@
+body{
+    color: rgb(0, 0, 0);
+    background-image: url("./images/backgroundcontact.jpg");
+    background-size: 1024px 768px;
+   font-family: "Oswald", sans-serif;
+    font-style: italic;
+  }
+  
+  footer img{
+    nav-down: 100px;
+    width: 60px;
+    height: 60px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+footer p {
+    margin-top: 2px;
+}
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #59595a;
+
+
+}
+.center{
+  text-align: center;
+}
+ul{
+
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px;
+
+}
+
+a{
+  text-decoration: none;
+  color: rgb(198, 240, 9);
+  font-size: 25px;
+  bottom: 0;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=text] {
+  height: 150px;
+  
+}
+button {
+  background-color: rgb(9, 192, 33);
+  color: rgb(252, 252, 252);
+  padding: 14px 10px;
+  margin: 8px 0;
+  border:none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 16px;
+  
+}
