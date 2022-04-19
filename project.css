@@ -1,0 +1,21 @@
+body{
+    color: rgb(180, 178, 30);
+    background-image: url("./images/backgroundproject.jpg");
+    background-size: 1024px 768px;
+    font-family: 'Arial', Helvetica sans-serif;
+}a{
+    text-decoration: none;
+    color: rgb(198, 240, 9);
+    font-size: 25px;
+    bottom: 0;
+  }
+  ul{
+
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+  
+  }
+  
